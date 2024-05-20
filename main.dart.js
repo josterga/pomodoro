@@ -50310,7 +50310,7 @@ T(a){var s,r,q=this,p=null,o=q.d,n=B.f.bB(o,60),m=B.f.cU(o,60)
 o=q.e?A.l(B.hQ,B.hM,(1500-o)/1500):A.l(B.hM,B.hQ,(300-o)/300)
 s=q.e
 r=s?B.wZ:B.wX
-r=A.a([new A.on(r,80,B.j,p),A.a1M(s?"Work Time":"Break Time",B.Fg,B.cg),A.a1M(""+n+":"+B.d.k8(B.f.k(m),2,"0"),B.Fh,B.cg)],t.nA)
+r=A.a([new A.on(r,80,B.j,p),A.a1M(s?"Focus":"Rest",B.Fg,B.cg),A.a1M(""+n+":"+B.d.k8(B.f.k(m),2,"0"),B.Fh,B.cg)],t.nA)
 o=o!=null?new A.fj(o,p,p,p,p,p,B.bx):p
 return new A.q7(A.Xp(p,new A.mU(new A.vh(B.fQ,B.A6,B.nq,B.e3,p,B.fz,p,r,p),o,p,B.a0,B.wC,p,p),B.b0,!1,p,p,p,p,p,p,p,p,p,p,p,p,p,p,q.gUz(),p,p,p),p)}}
 A.TF.prototype={
