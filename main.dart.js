@@ -66183,7 +66183,7 @@ p=A.a([A.UN(B.As,new A.a47(),B.LU),A.UN(B.Av,new A.a48(),B.LV),A.UN(B.Au,new A.a
 s=A.aI([null,0],t.LO,t.S)
 return new A.vc(new A.qC(q,o,0,B.x,new A.KN(r,r,1/0,56),r),B.FC,new A.BA(200,new A.CS(new A.a_1(!0,!0,!0,p,s),r,B.aT,!1,r,r,B.wx,!1,r,4,B.aV,B.G3,r,B.aU,r),r),r)}}
 A.a45.prototype={
-$0(){A.kO("https://josterga.github.io/pomodoro")},
+$0(){A.kO("https://focus.emanant.app")},
 $S:0}
 A.a46.prototype={
 $0(){var s,r,q=this.a,p=A.u6(q,!0).c
@@ -66205,13 +66205,13 @@ A.a47.prototype={
 $0(){A.kO("https://emanant.app")},
 $S:0}
 A.a48.prototype={
-$0(){A.kO("https://josterga.github.io/tasklist")},
+$0(){A.kO("https://track.emanant.app")},
 $S:0}
 A.a49.prototype={
-$0(){A.kO("https://josterga.github.io/pomodoro")},
+$0(){A.kO("https://focus.emanant.app")},
 $S:0}
 A.a4a.prototype={
-$0(){A.kO("https://josterga.github.io/balancesheet")},
+$0(){A.kO("https://balance.emanant.app")},
 $S:0}
 A.ut.prototype={
 ao(){return new A.xM(B.l)}}
