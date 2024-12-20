@@ -39738,7 +39738,7 @@ p.v_(A.app(null,r,!0,null,new A.X7(),q,null,s,B.vS,!0,t.z))},
 $S:0}
 A.X7.prototype={
 $1(a){var s=null,r=t.F
-return new A.nA(B.LP,A.BD(A.a([A.aiu(A.Hc(B.C9,A.n2(s,s,B.h4,s,s,s,s,s,s,s,s,16,s,s,s,s,1.5,!0,s,s,s,s,s,s,s,s),s),s,s)],r),B.hc,B.bq,B.cf),A.a([A.aiv(B.LR,new A.X6(a),s)],r),s)},
+return new A.nA(B.LP,A.BD(A.a([A.aiu(A.Hc(B.C8,A.n2(s,s,B.h4,s,s,s,s,s,s,s,s,16,s,s,s,s,1.5,!0,s,s,s,s,s,s,s,s),s),s,s)],r),B.hc,B.bq,B.cf),A.a([A.aiv(B.LR,new A.X6(a),s)],r),s)},
 $S:175}
 A.X6.prototype={
 $0(){A.uN(this.a,!1).eN()},
@@ -39823,8 +39823,7 @@ J.dS(s,new A.iz(q,new A.fP(Date.now(),!1)))}r.Cb()},
 $S:0}
 A.a7A.prototype={
 $0(){var s=this.a
-s.e=!1
-s.d=300
+s.d=(s.e?25:5)*60
 s.Cb()
 s.mn("Reset Timer")},
 $S:0}
@@ -43143,7 +43142,7 @@ A.pW.prototype={
 F(){return"_CornerId."+this.b}}
 A.jh.prototype={}
 A.oB.prototype={
-iu(){var s,r,q=this,p=A.aw9(B.C8,new A.Xh(q,q.b.gaV().aa(0,q.a.gaV()))),o=q.a
+iu(){var s,r,q=this,p=A.aw9(B.C9,new A.Xh(q,q.b.gaV().aa(0,q.a.gaV()))),o=q.a
 o.toString
 s=p.a
 o=q.m5(o,s)
@@ -72058,6 +72057,8 @@ B.dG=new A.ct(16,"ZWJ")
 B.j3=new A.ct(17,"WSegSpace")
 B.w1=new A.ct(18,"Unknown")
 B.C7=A.a(s([B.j0,B.cA,B.ae,B.fc,B.fd,B.j4,B.dH,B.N3,B.dI,B.dJ,B.aU,B.j1,B.j2,B.dF,B.bi,B.fb,B.dG,B.j3,B.w1]),A.ab("w<ct>"))
+B.Iq=new A.n1("Tap center to change focus.\nTap anywhere to extend timer.",null,B.c7,null)
+B.C8=A.a(s([B.Iq]),t.VO)
 B.kM=A.a(s([B.hq,B.eh,B.cZ,B.ek,B.eo,B.cd,B.kz,B.hB,B.aF,B.ep,B.bK,B.cW,B.cX,B.ei,B.cY,B.hr,B.bp,B.hs,B.ht,B.kx,B.aE,B.ej,B.d_,B.d0,B.hu,B.hv,B.hw,B.hx,B.ky,B.hy,B.hz,B.el,B.d1,B.d2,B.hA,B.em,B.en]),A.ab("w<bg>"))
 B.w2=new A.pW(0,"topLeft")
 B.w5=new A.pW(3,"bottomRight")
@@ -72067,7 +72068,7 @@ B.w3=new A.pW(1,"topRight")
 B.w4=new A.pW(2,"bottomLeft")
 B.Nd=new A.jh(B.w3,B.w4)
 B.Ne=new A.jh(B.w4,B.w3)
-B.C8=A.a(s([B.Nc,B.Nf,B.Nd,B.Ne]),A.ab("w<jh>"))
+B.C9=A.a(s([B.Nc,B.Nf,B.Nd,B.Ne]),A.ab("w<jh>"))
 B.cg=new A.eY(0,"controlModifier")
 B.ch=new A.eY(1,"shiftModifier")
 B.ci=new A.eY(2,"altModifier")
@@ -72078,8 +72079,6 @@ B.i1=new A.eY(6,"scrollLockModifier")
 B.i2=new A.eY(7,"functionModifier")
 B.pS=new A.eY(8,"symbolModifier")
 B.kN=A.a(s([B.cg,B.ch,B.ci,B.cj,B.i_,B.i0,B.i1,B.i2,B.pS]),A.ab("w<eY>"))
-B.Iq=new A.n1("Tap center to focus.\nTap anywhere to rest.",null,B.c7,null)
-B.C9=A.a(s([B.Iq]),t.VO)
 B.y8=new A.nL(0,"auto")
 B.y9=new A.nL(1,"full")
 B.ya=new A.nL(2,"chromium")
